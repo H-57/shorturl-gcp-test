@@ -9,7 +9,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - PORT=3000
+      - Port=3000
       - MONGODB_URI=mongodb://mongo:27017/test
    
   mongo:
